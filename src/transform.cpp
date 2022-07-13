@@ -1,7 +1,4 @@
 //------------------------------------------------------------------------------
-// Copyright 2022 Dominik Salvet
-// https://github.com/dominiksalvet/huffman-codec
-//------------------------------------------------------------------------------
 // Implementation of data transforming helper functions.
 //------------------------------------------------------------------------------
 
@@ -340,7 +337,7 @@ vector<uint8_t> revertAdaptRLE(deque<uint8_t> &deq)
     vector<uint8_t> finalMatrix(matrixWidth * matrixHeight);
     uint64_t blockCount = getBlockCount(matrixWidth, matrixHeight, blockSize);
 
-    for (uint i = 0; i < blockCount; i++)
+    for (uint8_t i = 0; i < blockCount; i++)
     {
         uint64_t blockBase = getBlockBase(matrixWidth, blockSize, i);
         uint64_t blockSizeX = getBlockSizeX(matrixWidth, blockBase, blockSize);
