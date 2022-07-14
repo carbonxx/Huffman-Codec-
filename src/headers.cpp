@@ -1,7 +1,4 @@
 //------------------------------------------------------------------------------
-// Copyright 2022 Dominik Salvet
-// https://github.com/dominiksalvet/huffman-codec
-//------------------------------------------------------------------------------
 // Implementation of functions working with compressed file headers.
 //------------------------------------------------------------------------------
 
