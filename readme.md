@@ -2,7 +2,6 @@
 
 This program called `huffman-codec` performs adaptive Huffman encoding and decoding of given files. It is a lossless compression method, and its main target within this assignment are `RAW` grayscale images, yet it may be used with any type of file. This implementation contains some features, which may improve Huffman coding efficiency in general. It also has features to boost compression factors for data with matrix characteristics (which images have). When compressing, these additional features, together with the Huffman encoding itself, are executed one by one in pipeline. When uncompressing, we proceed in the reversed order.
 
-> This program was created within a course of my master's studies.
 
 ## Implementation Details
 
@@ -93,4 +92,4 @@ Also, the base `RAW` file sample set was extended with custom `RAW` files to tes
 
 ## Sources
 
-Most of my sources came from the Internet and they were too many that it is impossible to list some particular. Some highligted websites include Stack Overflow, online CPP reference, and GitHub. I have also used some knowledge from my old personal projects.
+Most of my sources came from the Internet and they were too many that it is impossible to list some particular. Some highligted websites include Stack Overflow, online CPP reference, and GitHub.
